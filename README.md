@@ -1,4 +1,4 @@
-## Code for Embercast: Client-side Authentication, Part 1 (7:53)
+## Embercast: Client-side Authentication, Part 1
 
 This two-part series on client-side authentication focuses on how you
 can configure your single-page Ember app to query data from the server
