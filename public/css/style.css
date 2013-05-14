@@ -1,0 +1,15 @@
+/* Put your CSS here */
+html, body {
+    margin: 20px;
+
+    /*this is just to prevent scrollbars for cast*/
+    overflow: hidden;
+}
+
+
+#photos {
+  margin-left: 0;
+  margin-right: -20px;
+}
+
+
