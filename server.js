@@ -61,7 +61,7 @@ function validTokenProvided(req, res) {
   var userToken = req.body.token || req.param('token') || req.headers.token;
 
   if (!currentToken || userToken != currentToken) {
-    res.send(403, { error: 'Invalid token. You provided: ' + userToken });
+    res.send(401, { error: 'Invalid token. You provided: ' + userToken });
     return false;
   }
 
